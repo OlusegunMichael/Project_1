@@ -1,0 +1,40 @@
+## Project 1 - LAMP Stack Implementation
+___
+___
+
+### **Step 1 Installing Apache and Updating the Firewall**
+
+### **Step 2 Installing Apache and Updating the Firewall**
+___
+>#### Installing Apache using Ubuntu’s package manager ‘apt’*
+
+#####  To update a list of packages in package manager *`sudo apt update`* command is used and below images shows the status of the running update.
+
+
+![sudo apt status](./Project_1_Images/sudo_apt_update_1.PNG)
+
+![sudo apt status](./Project_1_Images/sudo_app_update_2.PNG)
+
+>#### Installing Apache2 Package 
+
+#####  To install the Apache2 package *`sudo apt install apache2`* command is used and below images shows the status of the running update.
+
+![apache2 install status](./Project_1_Images/sudo_instal%20apache2_1.PNG)
+
+![apache2 install status](./Project_1_Images/sudo_instal%20apache2_1a.PNG)
+
+#####  The below image shows a pending kernel upgrade upon the installation of the apache2 package.
+
+![Pending Kernel Upgrade](./Project_1_Images/sudo_instal%20apache2_2.PNG)
+
+#####  The below image verifies that apache2 is running as a Service in my OS and the Web Server has been launched in the clouds.
+
+![apache2 running status](./Project_1_Images/apache2_running_status.PNG)
+
+>#### Testing the Newly Launch Apache HTTP server
+
+#####  To Acces the HTTP Server  *`curl`* command can be used or through a web browser by using the public IP address of the server. Below Inage shows the server page via the web browser.
+
+![Apache HTTP Server](./Project_1_Images/webserver_page.PNG)
+![Apache HTTP Server](./Project_1_Images/webserver_page1a.PNG)
+
