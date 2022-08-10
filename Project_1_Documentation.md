@@ -2,10 +2,8 @@
 ___
 ___
 
-### **Firstly the Ubuntu Server using the EC2 Instance on AWS has to be setup and the process is detailed below**
+### **Step 1 - Setting up he Ubuntu Server using the EC2 Instance on AWS and the process is detailed below**
 ___
-
-
 >#### Setting up new EC2 instance
 #####  To setup the EC2 Linux Ubuntu Server is selected.
 ![EC2 Instance Launch](./Project_1_Images/EC2%20Inatance%20Lauch.PNG)
@@ -24,7 +22,7 @@ ___
 ##### EC2 instance Up and Running
 ![EC2 Instance Up and Running](./Project_1_Images/EC2%20Instance%20Up%20and%20Running.PNG)
 
-### **Step 1 Installing Apache and Updating the Firewall**
+### **Step 2 Installing Apache and Updating the Firewall**
 ___
 >#### Installing Apache using Ubuntu’s package manager ‘apt’
 
@@ -53,7 +51,7 @@ ___
 ![Apache HTTP Server](./Project_1_Images/webserver_page.PNG)
 ![Apache HTTP Server](./Project_1_Images/webserver_page1a.PNG)
 
-### **Step 2 INSTALLING MYSQL**
+### **Step 3 INSTALLING MYSQL**
 ___
 
 >#### Acquiring & Installing mysql server  using ‘apt’
@@ -74,7 +72,7 @@ ___
 ![mysql login with password](./Project_1_Images/mysql_login_pasword.PNG)
 
 
-### **Step 3 INSTALLING PHP**
+### **Step 4 INSTALLING PHP**
 ___
 >#### To have the PHP up and running 3 Packages are required to be installed using "apt" 
 * PHP Package
@@ -84,7 +82,7 @@ ___
 ![PHP Instal status](./Project_1_Images/php_install.PNG)
 #####  To check the php version *`php -v`* command is used and version details captured below.
 ![PHP Version](./Project_1_Images/php_version.PNG)
-### **Step 4  CREATING A VIRTUAL HOST FOR MY WEBSITE USING APACHE**
+### **Step 5  CREATING A VIRTUAL HOST FOR MY WEBSITE USING APACHE**
 ___
 >#### Setting up the Virtual Host on Apache 
 #####  The following command were used to set up the virtuahost
@@ -100,7 +98,7 @@ ___
 #####  Opening the Website usng *`http://<Public-IP-Address>:80`* for the Public IP and *`http://<http://<Public-DNS-Name>:80`* using the Domain Name, display page is captured below.
 ![Public IP](./Project_1_Images/projectlamp_PublicIP.PNG)
 ![Public Hostname](./Project_1_Images/projectlamp_public_hostname.PNG)
-### **Step 3 ENABLING PHP ON THE SERVER**
+### **Step 6git ENABLING PHP ON THE SERVER**
 ___
 >#### To Enable the PHP Server file *index.html* and *index.php* has to be re ordered
 #####  To Re-order the file *`sudo vim /etc/apache2/mods-enabled/dir.conf`* command is used to edit the conf in the ViM editor to make *index.php* take precedence over *index.html*
