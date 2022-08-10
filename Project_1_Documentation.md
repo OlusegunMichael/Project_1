@@ -90,7 +90,7 @@ ___
 * *`sudo chown -R $USER:$USER /var/www/projectlamp`* - (Change user ownerships of directory projectlamp)
 * *`sudo vim /etc/apache2/sites-available/projectlamp.conf`* - (Create Virtual Host conf for projectlamp)
 * *`sudo a2ensite projectlamp`* - (Enables projectlamp)
-* sudo a2dissite 000-default - (Disables the  default site)
+* *`sudo a2dissite 000-default`* - (Disables the  default site)
 * *`sudo apache2ctl configtest`* - (Tests all configurations to ensure proper syntax)
 * *`sudo systemctl reload apache2`* (Reloads the  Apache2 service)
 ![VirtualHost Status](./Project_1_Images/commands_virtual_host.PNG)
